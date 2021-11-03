@@ -1,0 +1,32 @@
+{
+  "name": "npm-hello-world-taozhi",
+  "version": "1.0.0",
+  "description": "你好 世界！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taozhi1010/npm-helloWorld.git"
+  },
+  "keywords": [
+    "你好",
+    "世界！"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "taozhi",
+  "license": "ISC",
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "bugs": {
+    "url": "https://github.com/taozhi1010/npm-helloWorld/issues"
+  },
+  "homepage": "https://github.com/taozhi1010/npm-helloWorld#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
